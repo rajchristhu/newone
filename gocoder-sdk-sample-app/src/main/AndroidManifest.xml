@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wowza.gocoder.sdk.sampleapp">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- This tag indicates that this application requires ARCore.  This results in the application
+         only being visible in the Google Play Store on devices that support ARCore. -->
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+<!--    <uses-permission android:name="android.permission.CAMERA" />-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.any" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+<!--    <uses-feature android:glEsVersion="0x00020000" android:required="true" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name_short"
+        tools:replace="label"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:ignore="GoogleAppIndexingWarning,HardcodedDebugMode"
+        android:name=".utilities.Application"
+>
+
+            <activity android:name=".intro.splashScreen"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:logo="@drawable/gocoder_logo"
+                 >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CameraActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/camera_example_title">
+        </activity>
+
+        <activity
+            android:name=".EventActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/event_example_title">
+        </activity>
+
+
+
+        <activity android:name=".audio.AudioMeterActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:label="@string/audio_meter_title"/>
+
+        <activity android:name=".audio.BluetoothActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:label="@string/audio_bluetooth_title"/>
+
+        <activity android:name=".graphics.BitmapOverlayActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:label="@string/bitmap_overlay_title"/>
+
+        <activity android:name=".graphics.TextOverlayActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:label="@string/text_overlay_title"/>
+
+        <activity android:name=".graphics.OpenGLActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:label="@string/opengl_title"/>
+
+        <activity android:name=".profile.ProfileActivity"></activity>
+        <activity android:name=".Chat.VideoActivity" />
+        <activity android:name=".Chat.ChatPageActivity" />
+        <activity android:name=".Chat.ChatActivity" />
+        <activity android:name=".login.SignUpActivity" />
+        <activity android:name=".login.SignInActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".MainActivity" />
+
+
+        <activity
+            android:name=".intro.checkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".audio.ActivityAudioCallOutgoing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".audio.ActivityAudioCallAccepted"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".audio_ar.ActivityAudioCallArAccepted"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".video_ar.ActivityVideoCallArAccepted"
+            android:screenOrientation="portrait" />
+        <meta-data android:name="com.google.ar.core" android:value="required" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" /> <!-- FCM -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/circle" />
+
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.MyFirebaseInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

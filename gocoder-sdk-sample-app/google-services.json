@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187921005974",
+    "firebase_url": "https://holo-sample.firebaseio.com",
+    "project_id": "holo-sample",
+    "storage_bucket": "holo-sample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187921005974:android:5941cf54bbb5c03d84f1b7",
+        "android_client_info": {
+          "package_name": "com.wowza.gocoder.sdk.sampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187921005974-h8lggrckk0234ps57lh3m5jk286tn9rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlvBkBu7jpPIcHh8LHfMWWZPnDVag5DHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187921005974-h8lggrckk0234ps57lh3m5jk286tn9rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

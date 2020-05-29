@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90">
+
+        <ImageButton
+            android:id="@+id/layout_btn_one_capture_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="2dp"
+            android:background="@drawable/icon_background_white_strok"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_camera_capture" />
+
+        <ImageButton
+            android:id="@+id/layout_btn_one_mic_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/layout_btn_one_capture_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_mic_white" />
+
+
+        <ImageButton
+            android:id="@+id/layout_btn_one_end_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:background="@drawable/icon_background_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/layout_btn_one_capture_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_call_end" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:visibility="gone"
+        android:id="@+id/layout_btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/layout_btn_two_send_img_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:backgroundTint="@color/colorButton"
+            android:text="Send Image"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guidelinev50"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_videocam" />
+
+        <ImageButton
+            android:id="@+id/layout_btn_two_mic_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/icon_background"
+            app:layout_constraintStart_toEndOf="@+id/guidelinev50"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_mic_white" />
+
+        <ImageButton
+            android:id="@+id/layout_btn_two_end_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_btn_two_mic_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_call_end" />
+
+
+        <ImageButton
+            android:id="@+id/layout_btn_two_recaptur_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background_white_strok"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_btn_two_send_img_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_re_camera_capture" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinev50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.55" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:visibility="gone"
+        android:id="@+id/layout_btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/layout_btn_three_send_ar_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:backgroundTint="@color/colorButton"
+            android:text="Send AR"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/layout_btn_three_guidelinev50"
+            app:layout_constraintEnd_toEndOf="@id/layout_btn_three_guidelinev50"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_videocam" />
+
+        <ImageButton
+            android:id="@+id/layout_btn_three_end_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_btn_three_send_ar_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_call_end" />
+
+
+        <ImageButton
+            android:id="@+id/layout_btn_three_mic_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_btn_three_send_ar_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_mic_white" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/layout_btn_three_guidelinev50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:visibility="gone"
+        android:id="@+id/layout_btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90">
+
+        <ImageButton
+            android:id="@+id/layout_btn_foure_end_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/layout_btn_four_guidelinev50"
+            app:layout_constraintStart_toStartOf="@+id/layout_btn_four_guidelinev50"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_call_end" />
+
+
+        <ImageButton
+            android:id="@+id/layout_btn_four_mic_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_btn_foure_end_btn"
+            app:srcCompat="@drawable/ic_mic_white" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/layout_btn_four_guidelinev50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#aa000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backbutton" />
+
+        <ImageView
+            android:id="@+id/video_ar_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/video"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/back_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:id="@+id/rootview"
+    android:focusable="true"
+    android:background="@drawable/grad"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/grad"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        tools:context="arivista.quickfix.team.trader.chat.chatFrag">
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="0.2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#56657C"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/settingicon" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView13"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/callar" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/circleimagewhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Guest"
+            android:textColor="@color/textColors"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
+            app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.49"
+            app:srcCompat="@drawable/backbutton" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/callwhite" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad"
+            android:layout_marginBottom="32dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintBottom_toTopOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <com.devlomi.record_view.RecordButton
+            android:id="@+id/record_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout4"
+            app:mic_icon="@drawable/audiowhite" />
+
+        <com.devlomi.record_view.RecordView
+            android:id="@+id/record_view"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:counter_time_color="#1A7AF6"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
+            app:layout_constraintEnd_toStartOf="@+id/record_button"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="parent"
+            app:slide_to_cancel_arrow="@drawable/recv_ic_arrow"
+            app:slide_to_cancel_arrow_color="@android:color/holo_red_dark"
+            app:slide_to_cancel_bounds="8dp"
+            app:slide_to_cancel_margin_right="10dp"
+            app:slide_to_cancel_text="" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rect"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView21"
+            app:layout_constraintStart_toEndOf="@+id/fab_send_image">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_insert_emoticon_black_24dp" />
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+                android:id="@+id/editText_message"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="Say something"
+                android:inputType="textMultiLine"
+                android:textColorHint="#B5B5B5"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView19"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout4"
+            app:srcCompat="@drawable/audiowhite" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout4"
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+
+        <ImageView
+            android:id="@+id/fab_send_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+            app:layout_constraintStart_toEndOf="@+id/imageView16"
+            app:srcCompat="@drawable/gallery" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_send"
+            app:layout_constraintStart_toEndOf="@+id/imageView_send"
+            app:srcCompat="@drawable/cameraicon" />
+
+        <ImageView
+            android:id="@+id/imageView_send"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout4"
+            app:srcCompat="@drawable/attachmenticon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

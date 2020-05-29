@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+    <com.google.android.cameraview.CameraView
+        android:visibility="invisible"
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/video_ar_mic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/ic_mic_white"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintEnd_toStartOf="@+id/video_ar_video" />
+
+    <ImageView
+        android:id="@+id/video_ar_video"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+       android:src="@drawable/video"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintEnd_toStartOf="@+id/guidelinev30" />
+
+    <ImageView
+        android:id="@+id/video_ar_sreen_shot"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:padding="2dp"
+        android:src="@drawable/s_shot"
+        android:background="@drawable/icon_background"
+        app:layout_constraintStart_toStartOf="@+id/guidelinev30"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90" />
+
+    <ImageButton
+        android:id="@+id/endcall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        app:srcCompat="@drawable/ic_call_end"
+        app:layout_constraintStart_toEndOf="@+id/video_ar_sreen_shot"
+        android:background="@drawable/icon_background_red"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/hold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hold"
+            android:background="@drawable/icon_background"
+            app:layout_constraintBottom_toTopOf="@+id/guideline90"
+            app:layout_constraintEnd_toStartOf="@+id/video" />
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/like"
+            android:background="@drawable/icon_background"
+            app:layout_constraintBottom_toTopOf="@+id/guideline90"
+            app:layout_constraintEnd_toStartOf="@+id/guidelinev30" />
+
+        <ImageView
+            android:id="@+id/clap"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/clap"
+            android:background="@drawable/icon_background"
+            app:layout_constraintStart_toStartOf="@+id/guidelinev30"
+            app:layout_constraintBottom_toTopOf="@+id/guideline90" />
+
+        <ImageView
+            android:id="@+id/alert"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:src="@drawable/alert"
+            android:background="@drawable/icon_background"
+            app:layout_constraintStart_toEndOf="@+id/mic"
+            app:layout_constraintBottom_toTopOf="@+id/guideline90" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#aa000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="3dp"
+            android:rotation="270"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backbutton" />
+
+        <ImageView
+            android:id="@+id/caller_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circleimagewhite"
+            android:transitionName="caller_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/back_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/caller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="Live with Arun"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:transitionName="caller_name"
+            app:layout_constraintStart_toEndOf="@+id/caller_image"
+            app:layout_constraintTop_toTopOf="@id/caller_image" />
+
+
+        <TextView
+            android:id="@+id/call_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:10"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@id/caller_name"
+            app:layout_constraintTop_toBottomOf="@+id/caller_name" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/video"
+            android:transitionName="video"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

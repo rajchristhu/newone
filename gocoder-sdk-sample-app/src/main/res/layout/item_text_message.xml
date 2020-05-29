@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/date"
+        style="@style/Platform.MaterialComponents.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="5dp"
+        android:text="date"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:visibility="gone"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date">
+
+        <RelativeLayout
+            android:id="@+id/message_root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_round_white"
+                    app:layout_constraintBottom_toTopOf="@+id/sender_pic"
+                    app:layout_constraintEnd_toStartOf="@+id/sender_pic"
+                    app:layout_constraintStart_toEndOf="@+id/receiver_pic">
+
+                    <TextView
+                        android:id="@+id/textView_message_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:maxWidth="250dp"
+                        android:minWidth="100dp"
+                        android:paddingStart="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="8dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/white"
+                        tools:text="huhu" />
+
+                    <TextView
+                        android:id="@+id/textView_message_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_message_text"
+                        android:layout_alignEnd="@id/textView_message_text"
+                        android:layout_marginEnd="8dp"
+                        android:textSize="12sp"
+                        android:visibility="gone"
+                        tools:text="3/15/2018 3:00 PM" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/tick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/sender_pic"
+                    app:layout_constraintEnd_toEndOf="@+id/sender_pic"
+                    app:srcCompat="@drawable/rect" />
+
+                <ImageView
+                    android:id="@+id/sender_pic"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circleimagewhite"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <ImageView
+                    android:id="@+id/receiver_pic"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circleimagewhite"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

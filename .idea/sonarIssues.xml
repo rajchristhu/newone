@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/build/generated/res/google-services/debug/values/values.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/BaseViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/Chat/ChatActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/Chat/ChatListner.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/Chat/ChatPageActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/Chat/VideoActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/Chat/adapter/ChatCallAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/Chat/adapter/ChatMainAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/api/Api.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/api/request/LoginResponce.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/audio/ActivityAudioCallAccepted.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/audio/ActivityAudioCallOutgoing.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/audio_ar/ActivityAudioCallArAccepted.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/audio_ar/ActivityAudioCallArOutgoing.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/glide/FireMessageGlideModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/graphics/OpenGLActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/intro/checkActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/intro/splashScreen.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/invite/InviteActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/invite/InviteViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/invite/adapter/InviteAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/item/AudioMessageItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/item/ImageMessageItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/item/MessageItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/item/PersonItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/item/TextMessageItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/item/VideoMessageItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/login/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/login/LoginViewmodel/LoginViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/login/SignInActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/login/SignUpActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/login/model/UserModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/AudioMessage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/ChatChannel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/ImageMessage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/Message.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/TextMessage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/User.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/model/VideoMessage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/profile/ProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/profile/ProfileActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/service/MyFirebaseInstanceIDService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/service/MyFirebaseMessagingService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/util/FirestoreUtil.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/util/StorageUtil.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/utilities/Application.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/utilities/BaseActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/utilities/SessionMaintainence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/utilities/Utils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/video/ActivityVideoCallAccepted.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/video/ActivityVideoCallOutgoing.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/video_ar/ActivityVideoCallArAccepted.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/java/com/wowza/gocoder/sdk/sampleapp/video_ar/ActivityVideoCallArOutgoing.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/res/drawable/circleimage.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/res/layout/activity_profile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/res/layout/item_text_message.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gocoder-sdk-sample-app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/android/app/src/main/kotlin/com/ceseagod/web/web/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/animation/animated_bottom_bar.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/form_kit/flutter_form.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/grocerry_kit/home_page.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/grocerry_kit/sub_pages/home_list.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/main.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/note_app/controller/notes_controller.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/note_app/edit_note.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/note_app/note_home.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/note_app/service/notes_service.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/screens/details.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/screens/home.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/screens/main_screen.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/config/route.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/model/data.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/pages/home_page.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/pages/mainPage.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/pages/product_detail.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/pages/shoping_cart_page.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/wigets/BottomNavigationBar/bootom_navigation_bar.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/wigets/BottomNavigationBar/bottom_curved_Painter.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/wigets/prduct_icon.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/wigets/product_card.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/src/wigets/title_text.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/ui/page_detail.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/ui/page_done.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/ui/page_task.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/wallpaper_kit/pages/home_page.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/wallpaper_kit/services/image_service.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/lib/wallpaper_kit/sub_pages/wallpapers.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/pubspec.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../web/test/widget_test.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Pictures/arivista-quickfix-6885ea0ce6ed/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/BaseViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/api/Api.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/api/ApiCallback.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/api/ApiClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/api/Repository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/api/request/LoginResponce.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/login/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/login/LoginViewmodel/LoginViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/login/SignInActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/login/SignUpActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/java/com/focuzar/holoassist/profile/ProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/res/layout/activity_sign_up.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-a/app/src/main/res/xml/network_security_config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/build/generated/res/google-services/development/debug/values/values.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/Chat/ChatPageActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/glide/FireMessageGlideModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/intro/checkActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/login/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/CameraActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/CameraActivityBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/EventActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/GoCoderSDKActivityBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/audio/AudioMeterActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/audio/BluetoothActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/common/helpers/DisplayRotationHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/common/helpers/SnackbarHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/config/GoCoderSDKPrefs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/BitmapOverlayActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/OpenGLActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/RectanglePolygonRenderer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/TextOverlayActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/model.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/models/ImageModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/graphics/tes.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/AboutFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/AudioLevelMeter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/ControlButton.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/DataTableFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/MultiStateButton.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/StatusView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/wowza/ui/TimerView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/CameraActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/CameraActivityBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/EventActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/GoCoderSDKActivityBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/KotlinPlayerActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/PlayerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ScreenshotActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/audio/AudioMeterActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/audio/BluetoothActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/common/helpers/DisplayRotationHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/common/helpers/SnackbarHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/config/GoCoderSDKPrefs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/graphics/BitmapOverlayActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/graphics/OpenGLActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/graphics/RectanglePolygonRenderer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/graphics/TextOverlayActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/graphics/model.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/graphics/models/ImageModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/mp4/MP4BroadcastActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/mp4/MP4CaptureActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/AboutFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/AudioLevelMeter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/ControlButton.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/DataTableFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/MultiStateButton.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/StatusView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/java/com/focuzar/holoassist/woza/ui/TimerView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_audio_meter.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_event.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_mp4_broadcast.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_opengl.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_overlay.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_screenshot.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/activity_stream_player.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/fragment_about.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/fragment_datagrid.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/layout/opengl.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/gocoder-sdk-sample-app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Raj Christhu/x-assist/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/oswww/CustomerApp/app/src/main/java/com/osw/osw_customer/app/gallery/createAlbum/CreateAlbumActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/oswww/CustomerApp/app/src/main/java/com/osw/osw_customer/app/gallery/gallery/GalleryViewModelFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/oswww/CustomerApp/app/src/main/res/layout/fragment_invite_email_share.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/oswww/CustomerApp/app/src/main/res/layout/gallery_view_model_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

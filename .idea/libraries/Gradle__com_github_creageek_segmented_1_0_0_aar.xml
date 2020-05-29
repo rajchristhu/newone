@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.creageek:segmented:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1e17f5feb05129ab714a1115e0c38e9/segmented-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1e17f5feb05129ab714a1115e0c38e9/segmented-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.creageek/segmented/1.0.0/55ae7091d6abfa019a0cb9f49267fa20e70a9b7e/segmented-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

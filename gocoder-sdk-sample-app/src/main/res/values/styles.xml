@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#141D21</item>
+        <item name="colorPrimaryDark">#141D21</item>
+        <item name="colorAccent">#342F47</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="DataTableTheme" parent="android:Theme.Holo.Light">
+    </style>
+
+    <style name="DataTableHeaderAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DataTableSubHeaderAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="DataTableLabelAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DataTableValueAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar"
+        > <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <!--        <item name="android:windowExitTransition">@transition/explode</item>-->
+
+        <!--        &lt;!&ndash; specify shared element transitions &ndash;&gt;-->
+        <item name="android:windowSharedElementEnterTransition">@transition/slide_and_changebounds</item>
+        <item name="android:windowSharedElementExitTransition">@transition/slide_and_changebounds_sequential</item>
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:id="@+id/rootview"
+    android:focusable="true"
+    android:background="@drawable/grad"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="3dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backbutton" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.15"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev30"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.5"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline90"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.9"/>
+
+    <ImageView
+        android:id="@+id/caller_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/caller_circleimagewhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline30" />
+
+    <ImageView
+        android:id="@+id/ar_video_call"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/back_icon"
+        app:layout_constraintStart_toEndOf="@+id/back_icon"
+        app:layout_constraintTop_toTopOf="@+id/back_icon"
+        app:srcCompat="@drawable/video" />
+
+
+    <TextView
+        android:id="@+id/caller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caller_image"
+        tools:text="Sankar" />
+
+    <TextView
+        android:id="@+id/call_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46516d"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caller_name"
+        android:text="Incoming call" />
+
+
+    <ImageButton
+        android:id="@+id/receive_call"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        app:srcCompat="@drawable/ic_call_attend"
+        android:background="@drawable/icon_background_green"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintEnd_toStartOf="@+id/guidelinev30" />
+
+    <ImageButton
+        android:id="@+id/end_call"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        app:srcCompat="@drawable/ic_call_end"
+        android:background="@drawable/icon_background_red"
+        app:layout_constraintStart_toStartOf="@+id/guidelinev30"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

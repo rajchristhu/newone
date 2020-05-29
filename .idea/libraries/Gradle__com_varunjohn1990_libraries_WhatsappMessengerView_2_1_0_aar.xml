@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.varunjohn1990.libraries:WhatsappMessengerView:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4b97f2e2285241840832a6a868c930c/WhatsappMessengerView-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4b97f2e2285241840832a6a868c930c/WhatsappMessengerView-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.varunjohn1990.libraries/WhatsappMessengerView/2.1.0/122bf16d51e73b467688bb76161e309e6150df9f/WhatsappMessengerView-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.varunjohn1990.libraries/WhatsappMessengerView/2.1.0/e6a3b5d90b8fabed1d82b9a6dcf780b8d696325c/WhatsappMessengerView-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

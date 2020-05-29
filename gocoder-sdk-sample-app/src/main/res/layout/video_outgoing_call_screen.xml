@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa000000"
+        app:layout_constraintBottom_toBottomOf="@+id/camera"
+        app:layout_constraintEnd_toEndOf="@+id/camera"
+        app:layout_constraintStart_toStartOf="@+id/camera"
+        app:layout_constraintTop_toTopOf="@+id/camera" />
+
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="30dp"
+        android:padding="2dp"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintEnd_toStartOf="@+id/video"
+        android:src="@drawable/audio" />
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintEnd_toStartOf="@+id/guidelinev30"
+        android:src="@drawable/video" />
+
+    <ImageButton
+        android:id="@+id/mic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintStart_toStartOf="@+id/guidelinev30"
+        app:srcCompat="@drawable/ic_mic_white" />
+
+
+    <ImageButton
+        android:id="@+id/endcall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/icon_background_red"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintStart_toEndOf="@+id/mic"
+        app:srcCompat="@drawable/ic_call_end" />
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:padding="3dp"
+        android:rotation="270"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backbutton" />
+
+    <ImageView
+        android:id="@+id/caller_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/caller_circleimagewhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline30" />
+
+    <TextView
+        android:id="@+id/caller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caller_image"
+        android:text="Sankar" />
+
+    <TextView
+        android:id="@+id/call_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caller_name"
+        android:text="Ringing..." />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

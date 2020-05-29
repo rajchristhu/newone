@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageButton
+        android:id="@+id/mic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintEnd_toStartOf="@+id/video"
+        app:srcCompat="@drawable/ic_mic_white" />
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/icon_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintStart_toStartOf="@+id/guidelinev30"
+        app:layout_constraintEnd_toEndOf="@+id/guidelinev30"
+        android:src="@drawable/video" />
+
+
+    <ImageButton
+        android:id="@+id/endcall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/icon_background_red"
+        app:layout_constraintBottom_toTopOf="@+id/guideline90"
+        app:layout_constraintStart_toEndOf="@+id/video"
+        app:srcCompat="@drawable/ic_call_end" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#aa000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="3dp"
+            android:rotation="270"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backbutton" />
+
+        <ImageView
+            android:id="@+id/caller_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circleimagewhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/back_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/caller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="Live with Arun"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/caller_image"
+            app:layout_constraintTop_toTopOf="@id/caller_image" />
+
+
+        <TextView
+            android:id="@+id/call_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:10"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@id/caller_name"
+            app:layout_constraintTop_toBottomOf="@+id/caller_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
